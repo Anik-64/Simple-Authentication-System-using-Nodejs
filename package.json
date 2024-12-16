@@ -1,0 +1,36 @@
+{
+  "name": "simple-authentication-system-using-nodejs",
+  "version": "1.0.0",
+  "description": "Simple auth system ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anik-64/Simple-Authentication-System-using-Nodejs.git"
+  },
+  "author": "Anik Majumder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anik-64/Simple-Authentication-System-using-Nodejs/issues"
+  },
+  "homepage": "https://github.com/Anik-64/Simple-Authentication-System-using-Nodejs#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.16",
+    "pg": "^8.13.1",
+    "sanitize-html": "^2.13.1",
+    "xss": "^1.0.15"
+  }
+}
